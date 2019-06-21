@@ -3,10 +3,10 @@ const path = require("path");
 
 const cwd = process.cwd();
 
-const [node, js_file, ...argvs] = process.argv;
+const [node, js_file, ...args] = process.argv;
 
-const filename = argvs[0];
-const mes = argvs[1];
+const filename = args[0];
+const mes = args[1];
 
 const err_mes = "Can't write file";
 
